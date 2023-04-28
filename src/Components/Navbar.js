@@ -30,7 +30,7 @@ export default function Navbar(props) {
                 </a>
               </li>
               <li className="nav-item mx-1">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/reminder">
                   Set Reminder
                 </a>
               </li>

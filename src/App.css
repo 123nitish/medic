@@ -1,0 +1,125 @@
+/* Reminder */
+/* {
+    margin: 0;
+    padding: 0;
+} */
+
+.reminder_box {
+  justify-content: center;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.reminder_title {
+  font-weight: 500;
+  font-size: larger;
+}
+
+/* Reminder Calender */
+
+.reminder_calender {
+  width: 45vw;
+  background-color: #2eabd5;
+  color: rgb(0, 0, 0);
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 5vh 22.5vw;
+  padding: 0.7rem 1.1rem;
+  border-radius: 5px;
+}
+
+/* Reminder Details */
+
+.reminder_details {
+  height: 75vh;
+  width: 40vw;
+  background: #2eabd5;
+  border-radius: 7px;
+  margin: 0 25vw 5vh 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.reminder_info {
+  width: 35vw;
+  height: 8vh;
+  background: #ffffff;
+  border-radius: 7px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.medicine_name {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1.8rem;
+}
+
+.medicine_time {
+  margin-left: 18vw;
+  margin-top: 1rem;
+  font-size: smaller;
+}
+
+.add-sign-btn {
+  width: 4vw;
+  margin: auto;
+  padding: 1.5px 1px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+/* Modal Body */
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer */
+
+.footer {
+  height: 3rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.footer-cont1 {
+  color: aliceblue;
+  flex: auto;
+  text-align: left;
+  margin-left: 3rem;
+  padding-top: 10px;
+}
+
+.footer-cont2 {
+  color: aliceblue;
+  text-align: right;
+  margin-right: 3rem;
+  padding-top: 10px;
+  display: flex;
+}
+
+.footerItem {
+  flex: auto;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.footerLinkPP {
+  margin-top: 2vh;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerLinkTNC {
+  margin-top: 2vh;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
